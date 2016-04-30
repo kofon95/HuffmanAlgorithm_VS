@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encode", "Encode\Encode.csproj", "{59B8F753-B483-4EA3-B68A-6867C1364CF1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EncodeTest", "EncodeTest\EncodeTest.csproj", "{73125D49-F65E-4C29-A43E-EC20A4D8694C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleWinForms", "ExampleWinForms\ExampleWinForms.csproj", "{74599DC4-59CE-4246-A65C-8370ECA860F8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{59B8F753-B483-4EA3-B68A-6867C1364CF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59B8F753-B483-4EA3-B68A-6867C1364CF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59B8F753-B483-4EA3-B68A-6867C1364CF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73125D49-F65E-4C29-A43E-EC20A4D8694C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73125D49-F65E-4C29-A43E-EC20A4D8694C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73125D49-F65E-4C29-A43E-EC20A4D8694C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73125D49-F65E-4C29-A43E-EC20A4D8694C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74599DC4-59CE-4246-A65C-8370ECA860F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74599DC4-59CE-4246-A65C-8370ECA860F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74599DC4-59CE-4246-A65C-8370ECA860F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74599DC4-59CE-4246-A65C-8370ECA860F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
