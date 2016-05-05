@@ -65,5 +65,12 @@ namespace ExampleWinForms
         {
             fieldEncodingText.Font = new System.Drawing.Font(fieldEncodingText.Font.FontFamily, trackBarTextSize.Value / 10.0f);
         }
+
+        private void добавитьСимволыToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var addition = new AddSymbols();
+            if (addition.ShowDialog() != DialogResult.OK) return;
+            fieldEncodingText.Text += addition.Symbols;
+        }
     }
 }

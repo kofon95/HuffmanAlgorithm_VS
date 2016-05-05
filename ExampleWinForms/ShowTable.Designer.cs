@@ -31,6 +31,7 @@
             this.dataGridViewTable = new System.Windows.Forms.DataGridView();
             this.butScroll = new System.Windows.Forms.Button();
             this.trackBarTextSize = new System.Windows.Forms.TrackBar();
+            this.butScreenshotDGV = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewTable)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBarTextSize)).BeginInit();
             this.SuspendLayout();
@@ -73,12 +74,24 @@
             this.trackBarTextSize.Value = 120;
             this.trackBarTextSize.Scroll += new System.EventHandler(this.trackBarTextSize_Scroll);
             // 
+            // butScreenshotDGV
+            // 
+            this.butScreenshotDGV.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.butScreenshotDGV.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.butScreenshotDGV.Location = new System.Drawing.Point(144, 405);
+            this.butScreenshotDGV.Name = "butScreenshotDGV";
+            this.butScreenshotDGV.Size = new System.Drawing.Size(126, 32);
+            this.butScreenshotDGV.TabIndex = 1;
+            this.butScreenshotDGV.Text = "Скриншот";
+            this.butScreenshotDGV.UseVisualStyleBackColor = true;
+            // 
             // ShowTable
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(626, 449);
             this.Controls.Add(this.trackBarTextSize);
+            this.Controls.Add(this.butScreenshotDGV);
             this.Controls.Add(this.butScroll);
             this.Controls.Add(this.dataGridViewTable);
             this.Name = "ShowTable";
@@ -96,5 +109,6 @@
         private System.Windows.Forms.DataGridView dataGridViewTable;
         private System.Windows.Forms.Button butScroll;
         private System.Windows.Forms.TrackBar trackBarTextSize;
+        private System.Windows.Forms.Button butScreenshotDGV;
     }
 }

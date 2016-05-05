@@ -45,6 +45,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddSymbols.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddSymbols.Designer.cs">
+      <DependentUpon>AddSymbols.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -59,6 +65,9 @@
     <Compile Include="ShowTable.Designer.cs">
       <DependentUpon>ShowTable.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AddSymbols.resx">
+      <DependentUpon>AddSymbols.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
